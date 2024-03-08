@@ -257,10 +257,6 @@ transition:  .5s;
 .login-register p a:hover  {
     text-decoration: underline;
 }
-
-/* login.css */
-
-/* Styles for larger screens */
 @media only screen and (min-width: 768px) {
   /* Add your desktop styles here */
   .wrapper {
@@ -268,8 +264,6 @@ transition:  .5s;
     margin: 0 auto;
   }
 }
-
-/* Styles for smaller screens */
 @media only screen and (max-width: 767px) {
   /* Add your mobile styles here */
   .wrapper {
