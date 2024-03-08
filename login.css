@@ -257,20 +257,26 @@ transition:  .5s;
 .login-register p a:hover  {
     text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
-  /* Add your desktop styles here */
+@media only screen and (max-width: 768px) {
   .wrapper {
-    max-width: 768px; /* Adjust as needed */
-    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .form-box {
+    padding: 15px;
   }
 }
-@media only screen and (max-width: 767px) {
-  /* Add your mobile styles here */
+
+@media only screen and (max-width: 480px) {
   .wrapper {
-    padding: 10px; /* Adjust as needed */
+    max-width: 100%;
   }
-  .form-box {
-    width: 100%;
+  
+  .navigation {
+    flex-direction: column;
   }
-  /* Adjust other styles as needed */
+  
+  .navigation a {
+    margin: 5px 0;
+  }
 }
